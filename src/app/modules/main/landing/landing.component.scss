@@ -1,0 +1,167 @@
+//***************************** For phone ****************************************
+//? Header
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  position: sticky;
+  margin-bottom: 1rem;
+}
+
+.header-title img {
+  height: 2rem;
+  margin-right: 0.5rem;
+}
+
+.header h1 {
+  margin-top: 0.5rem;
+}
+
+.burger-icon {
+  font-size: 1.7rem;
+  margin-right: 1rem;
+  margin-top: -1rem;
+  transition: 0.3s;
+}
+
+.burger-icon:hover {
+  color: #245437;
+  cursor: pointer;
+}
+
+//?Menu
+.main-menu {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.main-menu button {
+  margin-bottom: 1rem;
+}
+
+//? Principal banner
+.principal-banner {
+  padding: 1rem;
+}
+
+.principal-banner-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  color: #245437;
+}
+
+.principal-banner-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.principal-banner-content button {
+  width: 100%;
+}
+
+.principal-banner-content img {
+  width: 100%;
+  padding: 1rem;
+}
+
+//?section: utilidades
+
+.utilities-container {
+  background-color: #245437;
+  color: #fff;
+  padding: 1rem;
+  margin-top: -1px;
+  padding-bottom: 10rem;
+}
+
+.utilities-container h3 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.utilities img {
+  width: 50%;
+}
+
+.utility {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+//? contact section
+.contact-section {
+  margin-top: -4rem;
+  padding: 1rem;
+  padding-top: 2rem;
+  background-color: #fff;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+.contact-section h3 {
+  margin-bottom: 1rem;
+}
+
+.email-form {
+  margin: 1rem;
+}
+
+.email-form div {
+  margin-bottom: 1rem;
+}
+
+.email-form button {
+  width: 100%;
+}
+
+//? Footer
+.footer {
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: #0e0e0e;
+  color: #fff;
+  padding: 2rem;
+  display: flex;
+  margin-top: 3rem;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
+.footer span a {
+  color: #245437;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer span a:hover {
+  color: #fff;
+}
+
+.footer-icons {
+  font-size: 2rem;
+}
+
+.footer-icon {
+  padding: 0.5rem;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.footer-icon:hover {
+  color: #245437;
+  transform: scale(1.3);
+}
+
+//***************************** For Desktop ****************************************
+@media only screen and (min-width: 768px) {
+}

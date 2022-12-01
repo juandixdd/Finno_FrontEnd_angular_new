@@ -1,0 +1,119 @@
+<header class="header">
+  <div class="header-title">
+    <img src="../../../../assets/img/logo.png" alt="logo" />
+    <h1>Finno</h1>
+  </div>
+  <a (click)="openMenu()"><i class="fa-solid fa-bars burger-icon"></i></a>
+</header>
+
+<section *ngIf="burgerIcon" class="main-menu">
+  <button class="btn-custom-primary">Registro</button>
+  <button class="btn-custom-primary">Iniciar Sesión</button>
+</section>
+
+<main class="principal-banner">
+  <div class="principal-banner-content">
+    <div class="principal-banner-title">
+      <h3>Tu App de finanzas</h3>
+    </div>
+    <h1>Gestiona tus Finanzas</h1>
+    <p>
+      En <span style="color: #245437">Finno</span> queremos que lleves tus
+      finanzas de la manera más organizada, por eso queremos brindarte las
+      mejores herramientas para que esto sea posible.
+    </p>
+    <img
+      src="../../../../assets/svg/stock_landing.svg"
+      alt="principal-content-img"
+    />
+    <button class="btn-custom-primary">¡Empecemos!</button>
+  </div>
+</main>
+
+<section class="utilities-section">
+  <img src="../../../../assets/svg/wave.svg" />
+  <div class="utilities-container">
+    <h3>Utilidades</h3>
+    <div class="utilities">
+      <div class="utility">
+        <img
+          src="../../../../assets/svg/stock_landing_utility1.svg"
+          alt="Stock-img"
+        />
+        <h4>Programa tus gastos</h4>
+      </div>
+      <div class="utility">
+        <img
+          src="../../../../assets/svg/stock_landing_utility2.svg"
+          alt="Stock-img"
+        />
+        <h4>Gestiona tus ingresos</h4>
+      </div>
+      <div class="utility">
+        <img
+          src="../../../../assets/svg/stock_landing_utility3.svg"
+          alt="Stock-img"
+        />
+        <h4>Analiza tus estadísticas</h4>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact-section">
+  <h3>Contáctanos</h3>
+  <form class="email-form">
+    <div class="form-group">
+      <label for="subject" class="form-label">Asunto</label>
+      <input
+        type="text"
+        class="form-control"
+        id="subject"
+        placeholder="Ej. Quiero saber más!"
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="subject" class="form-label">Tu correo</label>
+      <input
+        type="email"
+        class="form-control"
+        id="subject"
+        placeholder="Ej. ejemplo@email.com"
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="text-area" class="form-label">Mensaje</label>
+      <textarea
+        class="form-control"
+        rows="7"
+        placeholder="Cuentanos..."
+      ></textarea>
+    </div>
+
+    <button class="btn-custom-primary">¡Enviar correo!</button>
+  </form>
+</section>
+
+<footer class="footer">
+  <p>
+    © Todos los derechos reservados
+    <span
+      ><a href="https://www.instagram.com/juandi.jpg/" target="_blank"
+        >@juandi.jpg</a
+      ></span
+    >
+  </p>
+  <div class="footer-icons">
+    <a href="https://www.instagram.com/juandi.jpg/" target="_blank"
+      ><i class="fa-brands fa-instagram footer-icon"></i
+    ></a>
+    <a href="https://github.com/juandixdd" target="_blank"
+      ><i class="fa-brands fa-github footer-icon"></i
+    ></a>
+    <a href="https://twitter.com/JuanDi_Arteaga" target="_blank"
+      ><i class="fa-brands fa-twitter footer-icon"></i
+    ></a>
+  </div>
+</footer>

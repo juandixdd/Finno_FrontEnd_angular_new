@@ -1,1 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-custom-primary {
+  background-color: #245437;
+  color: #fff;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.btn-custom-primary:hover {
+  background-color: #fff;
+  color: #245437;
+  border: solid 1px #245437;
+}
+
+.btn-custom-outline-primary {
+  background-color: #fff;
+  color: #245437;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  border: solid 1px #245437;
+  transition: 0.3s;
+}
+
+.btn-custom-outline-primary:hover {
+  background-color: #245437;
+  color: #fff;
+}
